@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+@import "./variables";
+
+html,
+:root,
+body {
+  font-family: Manrope, sans-serif;
+}
+
+.w-app-main {
+  min-width: $main-app-width;
+  max-width: $main-app-width;
+  min-height: $main-app-height;
+  max-height: $main-app-height;
+  margin: 0 auto;
+}
